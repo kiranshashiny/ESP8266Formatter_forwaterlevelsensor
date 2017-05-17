@@ -10,7 +10,7 @@ This project is derived from https://github.com/marvinroger/homie-esp8266
 
 I have utilized the Homie Configuration version v1.5 for this, as the later version did not complete successfully at the time of this writing ~ May 2017.
 
-Typically, this project is for hobbyists who wants to Publish and Subscribe data to/from the Broker in the cloud and also for the device to subscribe to commands from the broker - like turn On/Off a light on the wifi module thru an electrical relay.
+Typically, this project is for hobbyists who wants to Publish and Subscribe data to/from the Broker in the cloud and also for the device to subscribe to commands from the broker - like turn On/Off a light , or turn overhead water motor on/off depending on sensor readings like 'water level indicator' etc thru an electrical relay.
 
 The thing to note here is the usage of formatter Arduino code to erase the Wifi and MQTT attributes saved on the Wifi NodeMCU module, as this can get in the way of frequent uploads of the Homie Examples and sometimes does not erase all data on the NodeMCU flash.
 
