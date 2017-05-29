@@ -1,7 +1,9 @@
-# ESP8266Formatter_forwaterlevelsensor
+# Node MCU wifi devide connected to a Temperature Sensor, Publishing and Subscribing to Hive MQ Broker.
 
-This project describes a ESP8266 wifi device that can be configured to a MQTT broker and a temperature sensor data being published and subscribed from the HIVe MQ broker.
-(this is an ongoing project and I'm documenting it as I go on.. so there are some snapshots to be added, some precise documentation for beginners to be added here )
+This project describes a NodeMCU wifi device that can be configured to a MQTT broker and a Temperature sensor, (or turn on and off some lights ) data being published and subscribed from the Hive MQ broker.
+
+(This is an ongoing project and I'm documenting it as I go on.. so there are some snapshots to be added, some precise documentation for beginners to be added here )
+
 I assume that one is familiar with the ESP8266/nodeMCU, Arduino programming, building libraries, and working with IoT sensors like Temperature and Humidity sensors.
 
 For a detailed explanation of what I am doing here - refer to the link below and come back to this page to view my project.
