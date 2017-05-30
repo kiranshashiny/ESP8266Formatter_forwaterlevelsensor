@@ -126,15 +126,13 @@ After the NodeMCU reboots, the device is publishing data to the broker.
 
 Go to the http://www.hivemq.com/demos/websocket-client/ and subscribe to the temperature and humidity data from the NodeMCU
 
-
-<img width="626" alt="screen shot 2017-05-30 at 1 09 35 pm" src="https://cloud.githubusercontent.com/assets/14288989/26572947/870cded0-4539-11e7-9263-503d869cc1d0.png">
-
 <img width="599" alt="screen shot 2017-05-30 at 1 10 02 pm" src="https://cloud.githubusercontent.com/assets/14288989/26572949/89c41b16-4539-11e7-85c8-8250839f0881.png">
 
 <img width="586" alt="screen shot 2017-05-30 at 1 11 02 pm" src="https://cloud.githubusercontent.com/assets/14288989/26572952/8b722bec-4539-11e7-8578-2629f805ad14.png">
 
-and you should be able to see the subscriptions.
+and you should be able to see the subscriptions from the device to the broker.
 
 <img width="863" alt="screen shot 2017-05-30 at 1 11 11 pm" src="https://cloud.githubusercontent.com/assets/14288989/26572953/8d0ca18a-4539-11e7-9e94-ad74191e7c13.png">
 
+This concludes the blog.
 
