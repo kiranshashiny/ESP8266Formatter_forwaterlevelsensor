@@ -1,4 +1,4 @@
- #include <Homie.h>
+#include <Homie.h>
 
 #include <dht11.h>
 
@@ -65,7 +65,7 @@ void loopHandler() {
    
    delay(100);
    if ( (millis() - lastTimeStamp >= updtPeriodms ) || (temperature != last_temperature) || (h != last_h) ) {
-     Serial.print ("Shashi : Sending temperature " );
+     Serial.print ("Sending temperature readings to the MQTT Broker" );
      Serial.println (lastTimeStamp);
      Serial.println (temperature);
      if (Homie.setNodeProperty(temperatureNode, "degC", String(temperature), true)) {
@@ -78,7 +78,7 @@ void loopHandler() {
     }
     
     if (Homie.setNodeProperty(humidityNode, "humPercent", String(h), true)) {
-      Serial.print ("Shashi : Sending humidity ");
+      Serial.print ("Sending humidity readings to the MQTT Broker ");
       Serial.println (lastTimeStamp);
       lastTimeStamp = millis();
 
