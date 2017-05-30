@@ -1,4 +1,4 @@
-# Node MCU Wifi device connected to a Sensors and can Publish and Subscribe to Hive MQ Broker.
+# Node MCU Wifi device connected to Sensors and can Publish/Subscribe to MQTT broker ( e.g: Hive MQ Broker ) 
 
 This project describes a NodeMCU wifi device that can be connected to sensors like Temperature, Humidity, and can communicate to MQ Broker like Hive and can  turn on and off some lights, or send temperature/humidity data.
 
